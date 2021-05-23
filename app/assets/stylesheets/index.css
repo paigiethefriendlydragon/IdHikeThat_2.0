@@ -1,0 +1,101 @@
+body{
+  background-image: url("https://idhikethat.s3.us-east-2.amazonaws.com/elk+image.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Slabo 27px', serif;
+}
+
+.top-bar-section ul li > a {
+  font-size: 1.1rem;
+  background-color: #022851 !important;
+}
+
+p {
+  font size: 2rem;
+}
+
+.speech-bubble {
+	background: #022851;
+  border-color: white;
+  border-width: thick;
+  border-style: ridge;
+	border-radius: .4em;
+  width: 8em;
+  height: 6em;
+  position: absolute;
+  right: 0.5em;
+  bottom: 4em;
+  font-size: 4em;
+  padding-left: .4em;
+  letter-spacing: .03em;
+  text-align: center;
+  overflow: scroll;
+}
+
+.image-text{
+  background: url(https://www.texturepalace.com/gallery/wood/0227/5_wood_texture_big_0227.jpg)no-repeat top center;
+	background-size: cover;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	cursor: pointer;
+}
+
+.speech-bubble h1{
+  -webkit-transition: text-shadow 1s ease;
+	text-shadow: 0 0 1px rgba(0,0,0,.1);
+	padding: 0;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 2.5em;
+  -webkit-text-stroke: 1px black;
+  -webkit-text-stroke-width: .05em;
+  margin-bottom: 0;
+  line-height: 1em;
+}
+
+.speech-bubble h2{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 1em;
+  -webkit-text-stroke: 1px black;
+  -webkit-text-stroke-width: .07em;
+  letter-spacing: .3em;
+}
+
+.speech-bubble h2 a{
+  padding-top: 0;
+  margin-top: 0;
+  color: white;
+  font-size: .4em;
+  -webkit-text-stroke: .1px white;
+  -webkit-text-stroke-width: .05em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  letter-spacing: .07em;
+  background-color: #23436A;
+}
+
+#park-tile{
+  background-color: #022851;
+  margin: 2em;
+  max-width: 25em;
+  position: relative;
+  display: inline-block;
+  align-items: baseline;
+  padding: 1em;
+  border-style: ridge;
+  border-color: white;
+}
+
+#park-tile h3{
+  font-family: 'Luckiest Guy', cursive;
+  color: #CF8949;
+  -webkit-text-stroke: 1px black;
+}
+
+#park-tile p{
+  color: #CF8949;
+  background-color: #23456B;
+  border-style: ridge;
+  border-color: white;
+  padding: 1em;
+  font-family: 'Josefin Sans', sans-serif;
+}
