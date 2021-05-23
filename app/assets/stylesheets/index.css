@@ -3,14 +3,29 @@ body{
   background-size: cover;
   background-attachment: fixed;
   font-family: 'Slabo 27px', serif;
+  margin: 0;
 }
 
-.top-bar-section ul li > a {
-  font-size: 1.1rem;
+a {
+  color: white!important;
+}
+a.home-link{
+  text-decoration: none;
+}
+h1{
+  margin: 0;
+}
+
+ul.title-area{
   background-color: #022851 !important;
+  font-size: 1.1rem;
+  color: white;
+  list-style-type: none;
+  margin: 0 !important;
+  padding: .5em;
 }
 
-p {
+p{
   font-size: 2rem;
 }
 
