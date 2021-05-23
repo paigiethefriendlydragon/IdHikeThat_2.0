@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   root 'homes#index'
-  devise_for :users
 
   resources :parks, path: "parks", only: [:index, :show]
   resources :campsites, path: "campsites", only: [:index, :show]
