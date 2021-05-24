@@ -32,11 +32,12 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
+credentials.js
+.env
 /public/packs
 /public/packs-test
 /node_modules
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
-/app/javascript/react/components/credentials.js
-credentials.js
+
